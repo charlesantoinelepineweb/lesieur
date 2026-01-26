@@ -1,4 +1,6 @@
-/*---------------------BASE-----------------------------------------------*/
+/*-----------------------------------------
+GENERIQUE
+-----------------------------------------------*/
 
 html{ 
     box-sizing: border-box;
@@ -9,31 +11,142 @@ html{
     box-sizing: inherit;
 }
 
+/*-----------------------------------------
+ÉLÉMENT
+-----------------------------------------------*/
+
 body{
+
     margin: 0;
     padding: 0;
+
     font-family: "Roboto", sans-serif;
+    font-size: 18px;
 }
+
+a{
+
+    text-decoration: none;
+    color: white;
+}
+
+h1{
+
+    font-size: 36px;
+    font-weight: 300;
+
+    letter-spacing: 7.2px;
+
+    margin: 0;
+    text-align: center;
+
+}
+
+h2{
+
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+
+}
+
+h3{
+
+    font-size: 36px;
+    font-weight: normal;
+    margin: 10px 0;
+
+}
+
+/*-----------------------------------------
+COMPONENTS
+-----------------------------------------------*/
 
 .wrapper{
 
-    margin: auto;
-    max-width: 1440px ;
+    margin: 0 auto;
+    max-width: 1080px ;
+
 }
 
+.header{
+
+    background-color: #f26c25;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.header .wrapper{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    font-size: 36px;
+    font-weight: 700;
+
+}
+
+/*nav*/
+
+.menu{
+
+    display: flex;
+    gap: 40px;
+
+    list-style-type: none;
+}
+
+.menu a:hover{
+
+    text-decoration: underline;
+}
+
+/*hero*/
+
+.hero{
+
+    background-color: #eee;
+
+    padding-top: 80px;
+    padding-bottom: 80px;
+
+}
+
+/*titre transports*/
+
+.titre-section{
+
+    background-color: #eee;
+
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+
+    padding: 20px;
+    margin-bottom: 60px;
+
+}
+
+.transports{
+
+    padding-top: 80px;
+    padding-bottom: 80px;
 
 
-/*---------------------Header-----------------------------------------------*/
+}
 
+.conteneur-transports{
 
-
-/*---------------------Hero-----------------------------------------------*/
-
-
-
-/*---------------------Contenu----------------------------------------------*/
-
-
-
-
-/*---------------------Footer-----------------------------------------------*/
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 60px;
+}
