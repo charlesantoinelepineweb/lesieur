@@ -150,3 +150,32 @@ COMPONENTS
     grid-template-columns: 1fr 1fr 1fr;
     gap: 60px;
 }
+
+article{
+
+    text-align: center;
+}
+
+/*footer*/
+
+footer{
+
+    background-color: black;
+    color: white;
+    
+}
+
+footer .wrapper {
+
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+footer ul {
+
+    list-style-type: none;
+
+    display: flex;
+    gap: 20px;
+}
