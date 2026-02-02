@@ -211,3 +211,10 @@ COMPONENTS
     background-color: #0a66c2 ;
 
 }
+
+/*AIDE STYLISTIQUE*/
+
+.conteneur-transports-invisible {
+
+    display: none;
+}
